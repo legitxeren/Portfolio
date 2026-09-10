@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV | Rohit Kumar</title>
+<link rel="stylesheet" href="style.css">
+<style>
+html,body{margin:0;min-height:100%;background:#05070b;}
+.cv-page{min-height:100vh;padding:110px 4vw 40px;box-sizing:border-box;}
+.cv-toolbar{width:min(1100px,100%);margin:0 auto 18px;display:flex;justify-content:space-between;align-items:center;gap:15px;}
+.cv-toolbar a{color:inherit;text-decoration:none;}
+.cv-back{padding:10px 16px;border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--text);}
+.cv-original{width:min(1100px,100%);height:calc(100vh - 190px);min-height:700px;display:block;margin:auto;border:1px solid var(--border);border-radius:18px;background:white;box-shadow:0 30px 80px rgba(0,0,0,.35);}
+@media(max-width:600px){.cv-page{padding:90px 10px 20px}.cv-original{height:calc(100vh - 145px);min-height:600px}.cv-toolbar{font-size:12px;}}
+</style>
+</head>
+<body>
+<div class="cv-page">
+<div class="cv-toolbar">
+<a class="cv-back" href="index.html">← Back to Portfolio</a>
+<a class="cv-back" href="assets/Rohit_Kumar_CV.pdf" target="_blank">Open CV ↗</a>
+</div>
+<iframe class="cv-original" src="assets/Rohit_Kumar_CV.pdf#toolbar=1&navpanes=0&view=FitH" title="Rohit Kumar CV"></iframe>
+</div>
+</body>
+</html>
